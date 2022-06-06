@@ -1,0 +1,37 @@
+Package: cophyloML
+Type: Package
+Title: Machine learning for counting cophylogenetic events
+Version: 0.1.0
+Author: Authors@R: c(person("Wade", "Dismukes", email="wade.dismukes@gmail.com",
+                    role=c("aut","cre"))
+Maintainer: Wade Dismukes <dismukes.w@gmail.com>
+Description: This package takes input from the `treeducken` package and
+  uses a neural network to predict the number of cophylogenetic events. The
+  package can also be used to estimate the number of events in empirical datasets.
+  The vignettes for this package will be the experiments that are going in my 
+  dissertation chapter.
+License: GPL-3
+SystemRequirements: C++11
+Imports:
+  treeducken,
+  igraph,
+  stringr,
+  reticulate
+Config/reticulate:
+  list(
+    packages = list(
+      list(package = "pandas"),
+      list(package = "numpy"),
+      list(package = "matplotlib"),
+      list(package = "tensorflow"),
+      list(package = "sklearn")
+    )
+  )
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr

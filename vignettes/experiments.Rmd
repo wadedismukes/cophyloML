@@ -1,0 +1,28 @@
+---
+title: "Machine learning analysis pipeline"
+author: "Wade Dismkes"
+date: "5/25/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Simulating cophylogenetic datasets
+
+We simulate four levels of the following three parameters:
+ 
+* host-switching
+* cospeciation
+* extinction
+
+These parameter values were (0, 1, 2, 3). The first (0,0,0) of these produces two trees with random associations as there is no events causing a dependence between host and symbiont trees.
+
+The remaining parameters were set to be the same in all analyses. 
+
+
+
+
+```{r simulation}
+```
