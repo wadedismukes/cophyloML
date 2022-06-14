@@ -1,0 +1,10 @@
+	nymphaeifolia	citrifolia	costaricana	obtusifolia_A	obtusifolia_B	bullenei	col_perf	pop_bul	paraensis	popenoei
+perforata	0	0	0	0	0	0	1	0	0	0
+colubrinae	0	0	0	0	0	0	1	0	0	0
+costaricana	0	0	1	0	0	0	0	0	0	0
+nymphaeifolia	1	0	0	0	0	0	0	0	0	0
+obtusifolia	0	0	0	1	1	0	0	0	0	0
+paraensis	0	0	0	0	0	0	0	0	1	0
+citrifolia	0	1	0	0	0	0	0	0	0	0
+bullenei	0	0	0	0	0	1	0	1	0	0
+popenoei	0	0	0	0	0	0	0	1	0	1
